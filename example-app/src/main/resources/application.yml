@@ -1,0 +1,21 @@
+---
+logging:
+  level:
+    root: INFO
+    org.springframework.security: INFO
+    org.springframework.web: INFO
+    org.springframework.web.servlet: INFO
+    org.springframework.web.socket: INFO
+
+server:
+  tomcat:
+    accesslog:
+      enabled: false
+      directory: /dev
+      prefix: stdout
+      file-date-format:
+      suffix:
+
+spring:
+  application:
+    name: Example App

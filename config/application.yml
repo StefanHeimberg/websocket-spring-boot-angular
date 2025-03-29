@@ -1,0 +1,13 @@
+---
+logging:
+  level:
+    root: INFO
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG
+    org.springframework.web.servlet: DEBUG
+    org.springframework.web.socket: DEBUG
+
+server:
+  tomcat:
+    accesslog:
+      enabled: true
