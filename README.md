@@ -1,6 +1,10 @@
 # Websocket Spring Boot Angular
 
-## Example: Greeting
+**socket connection direct to Spring Boot:**
 
-http://localhost:8080/example-app/index.html
+http://localhost:8080/index.html
+
+**socket connection through angular dev-server:**
+
+http://localhost:4200/example-app
 
