@@ -4,10 +4,14 @@
     "dockerComposeFile": "compose.yml",
     "service": "devcontainer",
     "workspaceFolder": "/workspace",
+    "forwardPorts": ["8080", "4200"],
     "features": {
         "ghcr.io/devcontainers/features/java:1": {
             "version": "21",
             "jdkDistro": "tem"
+        },
+        "ghcr.io/devcontainers/features/node:1.6.1": {
+            "version": "22.14.0"
         }
     },
     "mounts": [
